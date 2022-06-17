@@ -28,7 +28,7 @@ jobs:
         python manage.py test
 
 
-# .github/workflows/main.yml
+.github/workflows/main.yml
 
 # Тут ваши задачи тестирования и сборки образа
 # ...
