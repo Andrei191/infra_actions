@@ -63,7 +63,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
           script: |
-            # Выполняет pull образа с DockerHu
+            # Выполняет pull образа с DockerHub
             sudo docker pull andrei191000/infra_actions
             #остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
